@@ -1,4 +1,4 @@
-package com.techhounds.lib.util;
+package lib.util;
 
 import edu.wpi.first.wpilibj.PowerDistributionPanel;
 import edu.wpi.first.wpilibj.SpeedController;
@@ -50,10 +50,9 @@ public class HoundSpeedController implements SpeedController {
 		return _controllers[0].get();
 	}
 
-	@Override
 	public void set(double speed, byte syncGroup) {
 		for(SpeedController controller : _controllers)
-			controller.set(speed, syncGroup);
+			controller.set(speed);
 	}
 
 	@Override

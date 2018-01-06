@@ -1,4 +1,4 @@
-package com.techhounds.lib.util;
+package lib.util;
 
 public class HoundMath {
 
