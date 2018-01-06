@@ -1,4 +1,4 @@
-package com.techhounds.lib.trajectory;
+package lib.trajectory;
 
 public class Trajectory {
 
@@ -12,7 +12,7 @@ public class Trajectory {
 		this.segments = new Segment[length];
 		
 		for(Segment seg : segments)
-			seg = new Segment();
+			seg = new Segment(); // FIXME: this doesn't assign anything!
 	}
 	
 	public static class Segment {

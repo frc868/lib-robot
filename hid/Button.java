@@ -1,4 +1,4 @@
-package com.techhounds.lib.hid;
+package lib.hid;
 
 import edu.wpi.first.wpilibj.buttons.Trigger;
 import edu.wpi.first.wpilibj.command.Command;

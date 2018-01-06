@@ -1,4 +1,4 @@
-package com.techhounds.lib.hid;
+package lib.hid;
 
 import java.util.ArrayList;
 

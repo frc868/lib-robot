@@ -1,4 +1,4 @@
-package com.techhounds.lib.hid;
+package lib.hid;
 
 /**
  * Implement our own Joystick Button class based on our custom Button class

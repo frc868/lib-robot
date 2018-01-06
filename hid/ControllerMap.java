@@ -1,11 +1,10 @@
-package com.techhounds.lib.hid;
+package lib.hid;
 
 import java.util.HashMap;
 
-import com.techhounds.lib.util.HoundMath;
+import lib.util.HoundMath;
 
 import edu.wpi.first.wpilibj.Joystick;
-import edu.wpi.first.wpilibj.Joystick.RumbleType;
 
 public class ControllerMap {
 	
@@ -166,14 +165,14 @@ public class ControllerMap {
 		PS4, LOGITECH, XBOX_ONE, XBOX_360
 	}
 	
-	public void startRumble() {
-		joystick.setRumble(RumbleType.kLeftRumble, 1);
-		joystick.setRumble(RumbleType.kRightRumble, 1);
+	public void startRumble() { // FIXME
+//		joystick.setRumble(RumbleType.kLeftRumble, 1);
+//		joystick.setRumble(RumbleType.kRightRumble, 1);
 	}
 	
-	public void stopRumble() {
-		joystick.setRumble(RumbleType.kLeftRumble, 0);
-		joystick.setRumble(RumbleType.kRightRumble, 0);
+	public void stopRumble() { // FIXME
+//		joystick.setRumble(RumbleType.kLeftRumble, 0);
+//		joystick.setRumble(RumbleType.kRightRumble, 0);
 	}
 	
 	public Joystick getJoystick() {

@@ -1,19 +1,20 @@
-package com.techhounds.lib.trajectory;
+package lib.trajectory;
 
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-import com.techhounds.lib.trajectory.Trajectory.Segment;
+import lib.trajectory.Trajectory.Segment;
 
 public class TrajectorySerializer {
 
 	public static Trajectory readFromCSV(File file) {
 		ArrayList<Segment> segments = new ArrayList<>();
+		Scanner scanner = null;
 		
 		try {
-			Scanner scanner = new Scanner(file);
+			scanner = new Scanner(file);
 			
 			while(scanner.hasNextLine()) {
 
@@ -40,6 +41,10 @@ public class TrajectorySerializer {
 			
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
+		} finally {
+			if (scanner != null) {
+				scanner.close();
+			}
 		}
 		
 		return new Trajectory(0);

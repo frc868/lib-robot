@@ -1,4 +1,4 @@
-package com.techhounds.lib.trajectory;
+package lib.trajectory;
 
 import java.io.File;
 import java.util.HashMap;

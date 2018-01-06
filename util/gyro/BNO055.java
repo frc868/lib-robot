@@ -1,4 +1,4 @@
-package com.techhounds.lib.util.gyro;
+package lib.util.gyro;
 
 import java.util.TimerTask;
 

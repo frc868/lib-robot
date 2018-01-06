@@ -1,10 +1,8 @@
-package com.techhounds.lib.hid;
+package lib.hid;
 
 import edu.wpi.first.wpilibj.GenericHID.Hand;
 
-import com.techhounds.lib.hid.ControllerMap.Key;
-
-import edu.wpi.first.wpilibj.Joystick;
+import lib.hid.ControllerMap.Key;
 
 public class TriggerButton extends JoystickButton {
 	

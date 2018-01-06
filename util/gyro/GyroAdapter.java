@@ -1,4 +1,4 @@
-package com.techhounds.lib.util.gyro;
+package lib.util.gyro;
 
 import edu.wpi.first.wpilibj.GyroBase;
 

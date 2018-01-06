@@ -31,7 +31,7 @@
  * </p>
  */
 
-package com.techhounds.lib.util.gyro;
+package lib.util.gyro;
 
 import java.io.File;
 import java.io.IOException;

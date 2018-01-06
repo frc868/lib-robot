@@ -1,6 +1,6 @@
-package com.techhounds.lib.trajectory;
+package lib.trajectory;
 
-import com.techhounds.lib.util.HoundMath;
+import lib.util.HoundMath;
 
 public class TrajectoryFollower {
 	

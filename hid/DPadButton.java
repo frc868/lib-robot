@@ -1,6 +1,4 @@
-package com.techhounds.lib.hid;
-
-import edu.wpi.first.wpilibj.GenericHID;
+package lib.hid;
 
 public class DPadButton extends JoystickButton {
 	
